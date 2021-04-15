@@ -1,0 +1,9 @@
+/data/*
+/bin/*
+/doc/*
+/include/*
+/lib/*
+/pgAdmin/*
+/share/*
+/symbols/*
+/StackBuilder/*

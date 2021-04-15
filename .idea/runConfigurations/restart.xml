@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="restart" type="ShConfigurationType">
+    <option name="SCRIPT_PATH" value="D:\Develop\Projects\ALL\server\restart.cmd" />
+    <option name="SCRIPT_OPTIONS" value="" />
+    <option name="INTERPRETER_PATH" value="" />
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <method v="2" />
+  </configuration>
+</component>
