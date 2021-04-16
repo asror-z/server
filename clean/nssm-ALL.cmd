@@ -1,6 +1,6 @@
 
 Set ProgramPath=d:\Develop\Projects\server\clean
-Set ServiceName=Zetsoft_Disconnect
+Set ServiceName=TeamPRO_Disconnect
 
 Set AppPath=%ProgramPath%
 Set AppExe=%AppPath%\app\Disconnect

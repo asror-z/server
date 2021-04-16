@@ -4,7 +4,7 @@ SET PGDATA=d:\Develop\Projects\dbdata\pgsql
 Set LogPath=d:\Develop\Projects\dblogs\pgsql\app.log
 
 Set ProgramPath=D:\Develop\Projects\server\pgsql
-Set ServiceName=Zetsoft_Postgres
+Set ServiceName=TeamPRO_Postgres
 
 SET PGDATABASE=postgres
 SET PGUSER=postgres

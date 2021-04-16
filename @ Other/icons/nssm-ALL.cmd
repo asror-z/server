@@ -1,6 +1,6 @@
 @echo off
 
-Set ServiceName=Zetsoft_Icons
+Set ServiceName=TeamPRO_Icons
 Set ProgramPath=d:\Develop\Projects\server\icons
 
 Set AppPath=%ProgramPath%

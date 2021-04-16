@@ -1,6 +1,6 @@
 
 Set ProgramPath=d:\Develop\Projects\server\httfs\
-Set ServiceName=Zetsoft_HFS
+Set ServiceName=TeamPRO_HFS
 
 Set AppPath=%ProgramPath%
 Set AppExe=%AppPath%\app\hfs

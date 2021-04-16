@@ -1,6 +1,6 @@
 
 Set ProgramPath=D:\Develop\Projects\server\mysql
-Set ServiceName=Zetsoft_MySQL
+Set ServiceName=TeamPRO_MySQL
 
 Set LogsPath=d:\Develop\Projects\dblogs\mysql
 Set DataPath=d:\Develop\Projects\dbdata\mysql
@@ -11,4 +11,4 @@ Set AppCmd=--defaults-file=%ProgramPath%\conf\config.ini
 Set AppExit=Ignore
 
 Set ObjectName=LocalSystem
-Set ObjectPass=
+Set ObjectPass=""

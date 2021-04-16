@@ -1,6 +1,6 @@
 
 Set ProgramPath=D:\Develop\Projects\server\nginx
-Set ServiceName=Zetsoft_Nginx
+Set ServiceName=TeamPRO_Nginx
 
 Set LogsPath=d:\Develop\Projects\dblogs\nginx
 
@@ -9,5 +9,5 @@ Set AppExe=%AppPath%\nginx
 Set AppCmd=""
 Set AppExit=Ignore
 
-Set ObjectName=.\%SysUser%
-Set ObjectPass=%SysPass%
+Set ObjectName=LocalSystem
+Set ObjectPass=""

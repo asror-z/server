@@ -1,5 +1,5 @@
 
-Set ServiceName=Zetsoft_Nginx
+Set ServiceName=TeamPRO_Nginx
 
 Set ProgramPath=d:\Develop\Projects\panels\modules\http
 Set AppVersion=Nginx_1.19
@@ -11,5 +11,5 @@ Set AppExe=%AppPath%\nginx.exe
 Set AppCmd=""
 Set AppExit=Restart
 
-Set ObjectName=.\%SysUser%
-Set ObjectPass=%SysPass%
+Set ObjectName=LocalSystem
+Set ObjectPass=""
