@@ -16,10 +16,10 @@ pushd httfs
 start /min cmd-%App%.cmd
 popd
 
-pushd icons
+pushd black
 start /min cmd-%App%.cmd
 popd
 
-pushd black
+pushd clean
 start /min cmd-%App%.cmd
 popd
