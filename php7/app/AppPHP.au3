@@ -12,11 +12,10 @@
 #include <MyUDFs\ProcessCloseAll.au3>
 #include <MyUDFs\FileZ.au3>
 
-$delay = 1
-$count = 5
-
 ; -b 127.0.0.1:9004 -c "d:\develop\projects\panels\modules\php\PHP_7.4\php.ini"
 
+$delay = 1
+$count = 15
 
 $version = 'PHP_7.4'
 
@@ -32,6 +31,7 @@ TraySetToolTip('PHP Executer')
 
 Func exitApp()
     ProcessCloseAll('php-cgi.exe')
+    ProcessCloseAll('AppPHP.exe')
 EndFunc   ;==>exitApp
 
 
