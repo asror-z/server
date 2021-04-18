@@ -28,7 +28,8 @@ TraySetToolTip('Executer! Execute Apps')
 		$file = 'c:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe'
 		$cmd = '-executionpolicy RemoteSigned -WindowStyle Hidden -file "' & @ScriptDir &'\Disconnect.ps1"'
 
-		ShellExecuteWait($file, $cmd, @ScriptDir,  $SHEX_OPEN, @SW_HIDE )
+		; ShellExecuteWait($file, $cmd, @ScriptDir,  $SHEX_OPEN, @SW_HIDE )
+		ShellExecuteWait($file, $cmd, Default,  Default, @SW_HIDE )
 		
         Sleep($iDelay)
     WEnd
