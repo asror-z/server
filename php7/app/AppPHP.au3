@@ -35,7 +35,7 @@ Func exitApp()
 EndFunc   ;==>exitApp
 
 
-OnAutoItExitRegister("exitApp")
+; OnAutoItExitRegister("exitApp")
 
 
 #Region Exec
