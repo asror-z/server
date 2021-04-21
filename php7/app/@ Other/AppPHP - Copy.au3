@@ -29,6 +29,14 @@ TraySetState($TRAY_ICONSTATE_SHOW)
 TraySetToolTip('PHP Executer')
 
 
+Func exitApp()
+    ProcessCloseAll('php-cgi.exe')
+    ProcessCloseAll('AppPHP.exe')
+EndFunc   ;==>exitApp
+
+
+; OnAutoItExitRegister("exitApp")
+
 
 #Region Exec
 
