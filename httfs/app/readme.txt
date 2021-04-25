@@ -1,0 +1,1 @@
+birinchi marta ishga tushurayatib hfs.tpl va jwplayer.js ni resource qilib qoyish kerak
