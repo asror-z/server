@@ -1,13 +1,16 @@
 
+Set Version=5_0
 Set LogsPath=d:\Develop\Projects\dblogs\redis
-Set DataPath=d:\Develop\Projects\dbdata\redis
+Set DataPath=d:\Develop\Projects\dbdata\redis\%Version%
 
-Set ProgramPath=D:\Develop\Projects\server\redis
+Set MainPath=D:\Develop\Projects\server\redis
+Set ProgramPath=%MainPath%\%Version%
+
 Set ServiceName=TeamPRO_Redis
 
-Set AppPath=%ProgramPath%\app
+Set AppPath=%ProgramPath%
 Set AppExe=%AppPath%\redis-server
-Set AppCmd=%ProgramPath%\conf\service.conf
+Set AppCmd=%MainPath%\ALL\service.conf
 Set AppExit=Ignore
 
 Set ObjectName=LocalSystem

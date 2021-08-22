@@ -1,11 +1,13 @@
 
 
-SET PGDATA=d:\Develop\Projects\dbdata\pgsql
 Set LogPath=d:\Develop\Projects\dblogs\pgsql\app.log
 
-Set ProgramPath=D:\Develop\Projects\server\pgsql
+Set Version=13
+Set MainPath=D:\Develop\Projects\server\pgsql
+Set ProgramPath=%MainPath%\%Version%
 Set ServiceName=TeamPRO_Postgres
 
+SET PGDATA=d:\Develop\Projects\dbdata\pgsql\%Version%
 SET PGDATABASE=postgres
 SET PGUSER=postgres
 SET PGPASSWORD=serverpass1234
