@@ -11,7 +11,7 @@ Set ServiceName=TeamPRO_Redis
 Set AppPath=%ProgramPath%
 Set AppExe=%AppPath%\redis-server
 Set AppCmd=%MainPath%\ALL\service.conf
-Set AppExit=Ignore
+Set AppExit=Restart
 
 Set ObjectName=LocalSystem
 Set ObjectPass=""

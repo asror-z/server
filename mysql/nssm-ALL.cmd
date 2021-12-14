@@ -8,7 +8,7 @@ Set ServiceName=TeamPRO_MySQL
 Set AppPath=%ProgramPath%\bin
 Set AppExe=%AppPath%\mysqld
 Set AppCmd=--defaults-file=%ProgramPath%\ALL\config.ini
-Set AppExit=Ignore
+Set AppExit=Restart
 
 Set ObjectName=LocalSystem
 Set ObjectPass=""

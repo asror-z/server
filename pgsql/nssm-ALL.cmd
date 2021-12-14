@@ -18,7 +18,7 @@ Set AppPath=%ProgramPath%\bin
 Set AppExe=%AppPath%\pg_ctl
 Set AppCmd=start -D "%PGDATA%" -l "%LogPath%" -P %PGPASSWORD%
 Set AppReg=register -N %ServiceName% -U "NT AUTHORITY\NetworkService" -D "%PGDATA%" -w -l "%LogPath%"
-Set AppExit=Ignore
+Set AppExit=Restart
 
 Set ObjectName=LocalSystem
 Set ObjectPass=""
